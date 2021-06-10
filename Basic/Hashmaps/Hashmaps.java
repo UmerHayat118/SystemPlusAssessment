@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class Hashmaps
 {
-    //FUnction for Problem 1: Shared SubStrings between Two Strings
+    //Function for Problem 1: Shared SubStrings between Two Strings
     static int shareSubString(String a, String b)
     {
         int count=0;
@@ -38,21 +38,5 @@ public class Hashmaps
         else
             return 0;
     }
-    public static void main(String[]args)
-    {
-        //String a="abcd";
-        //String b="cde";
-        //int res=Hashmaps.shareSubString(a,b);
-        //System.out.print(res);
-
-        HashMap<String,Integer>x=new HashMap<>();
-        x.put("a",1);
-        x.put("b",2);
-        x.put("c",3);
-        HashMap<String,Integer>b=new HashMap<>();
-        b.put("c", 3);
-        b.put("b", 2);
-        b.put("a", 1);
-        CompareMaps(x,b);
-    }
+    
 }
