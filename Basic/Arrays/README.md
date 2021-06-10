@@ -24,7 +24,12 @@
         int a'[n]: the rotated array
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1: 
+    int array[]=new int[4];
+    array= new int[]{1, 2, 3, 4, 5};
+    Basic_Arrays.rotLeft(array,2);
+    
+    ________________ (Fill this in when submitting)
 
 ## Problem 2: Array Reversal
 
@@ -46,4 +51,8 @@
         Answer: Complexity will be the length of array O(n). Because program will execute and perform rotations till the length of the array.
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1:
+     int array[]=new int[4];
+    array= new int[]{1, 2, 3, 4, 5};
+    Basic_Arrays.ArrayReversal(array);
+    ________________ (Fill this in when submitting)
