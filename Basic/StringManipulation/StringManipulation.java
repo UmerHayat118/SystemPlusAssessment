@@ -21,14 +21,6 @@ public class StringManipulation
         a=a.replace(s,"");//replacing given char
         System.out.print(a);
     }
-    public static void main(String[]args) {
-        String[] a = {"A","T","A","T","G","T","A","T","G"};
-        String[] b = {"A","T","A","T","A","T","A","T","G"};
-        double res=StringManipulation.SimilarityIndexGenome(a, b);
-        //System.out.print(res);
-        String str="We Are Your Technology Partners";
-
-        RemoveChar(str,' ');
-    }
+    
 }
 
