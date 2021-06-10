@@ -41,7 +41,7 @@ public class Basic_Arrays
             a[i] = temp[counter];
             counter++;
         }
-        for(int i=0;i<a.length;i++)
+        for(int i=0;i<a.length;i++)// Displaying array
         {
             System.out.println(a[i]);
         }
