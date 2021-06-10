@@ -39,6 +39,6 @@
     Questions:
 
         Can we use this method to return how many elements match between two maps?
-
+        Yes,if we implement the solution mannualy matching 1 key value pairs with others(We can increment count each time a key value pair matches with the 2nd Hashmap key     value)
 
     Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
