@@ -39,6 +39,7 @@
     Questions:
 
         a. Can we use the rotLeft function written above to achieve this?
+        Answer: yes
 
         b. What will be the complexity of the program in terms of time if we
         solve it using rotLeft function?
