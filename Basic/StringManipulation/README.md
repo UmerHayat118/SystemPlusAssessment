@@ -25,9 +25,15 @@
         Questions:
             Can we find the positions of characters that do not match using this
             function?
+            Yes
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1:
+        String[] a = {"A","T","A","T","G","T","A","T","G"};
+        String[] b = {"A","T","A","T","A","T","A","T","G"};
+        double res=StringManipulation.SimilarityIndexGenome(a, b);
+        System.out.print(res);
+    ________________ (Fill this in when submitting)
 
 ## Problem 2: Remove a character from the entire string.
 
@@ -40,6 +46,10 @@
 
     Questions:
        Can we use the Tree data structure or hashing to optimize this?
+         Yes
 
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2: 
+        String str="We Are Your Technology Partners";
+        RemoveChar(str,' ');
+    ________________ (Fill this in when submitting)
