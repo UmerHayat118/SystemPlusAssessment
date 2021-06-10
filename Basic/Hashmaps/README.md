@@ -22,7 +22,12 @@
         bool: 1 or 0
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1:
+        String a="abcd";
+        String b="cde";
+        int res=Hashmaps.shareSubString(a,b);
+        System.out.print(res);
+    ________________ (Fill this in when submitting)
 
 ## Problem 2: Comparsion Of Two Maps
 
@@ -41,4 +46,14 @@
         Can we use this method to return how many elements match between two maps?
         Yes,if we implement the solution mannualy matching 1 key value pairs with others(We can increment count each time a key value pair matches with the 2nd Hashmap key     value)
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2: 
+    HashMap<String,Integer>x=new HashMap<>();
+        x.put("a",1);
+        x.put("b",2);
+        x.put("c",3);
+        HashMap<String,Integer>b=new HashMap<>();
+        b.put("c", 3);
+        b.put("b", 2);
+        b.put("a", 1);
+        CompareMaps(x,b);
+    ________________ (Fill this in when submitting)
