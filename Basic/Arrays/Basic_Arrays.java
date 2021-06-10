@@ -45,11 +45,4 @@ public class Basic_Arrays
         System.out.println("Array after Reversal");
         System.out.println(Arrays.toString(a));//Displaying array
     }
-public static void main(String[]args)
-{
-    int array[]=new int[4];
-    array= new int[]{1, 2, 3, 4, 5};
-    Basic_Arrays.rotLeft(array,2);
-    Basic_Arrays.ArrayReversal(array);
-}
 }
