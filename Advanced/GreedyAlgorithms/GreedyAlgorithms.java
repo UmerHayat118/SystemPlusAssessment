@@ -18,9 +18,4 @@ public class GreedyAlgorithms
         System.out.print("Minimum Absolute Difference="+result);
     }
 
-    public static void main(String[]args)
-    {
-        int a[] = {10,12,13,15,10};
-        GreedyAlgorithms.findAbsMin(a);
-    }
 }
