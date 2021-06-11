@@ -23,5 +23,8 @@
         int a': Minimum Absolute Difference
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1:
+        int a[] = {10,12,13,15,10};
+        GreedyAlgorithms.findAbsMin(a);
+    ________________ (Fill this in when submitting)
 
