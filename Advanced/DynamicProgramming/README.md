@@ -6,7 +6,10 @@ Fibonnaci Formula: f(n) = f(n-1) + f(n-2) if n>2 && f(1) = 1, f(2)=1
 This problem is self descriptive.
 You should be able to explain the memoization in comments.
 
-_Command/Script to Run Problem 1: ________________ (Fill this in when submitting)_
+_Command/Script to Run Problem 1:
+        int n=5;
+        System.out.println(fib(n));
+ (Fill this in when submitting)_
 
 ## Problem 2: Find Longest Common SubSequence in two strings.
 
@@ -19,4 +22,8 @@ _Command/Script to Run Problem 1: ________________ (Fill this in when submitting
 
         LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2:    
+        String a="ABCDGH";
+        String b="AEDFHR";
+        DynamicProgramming.LCS(a,b);
+    ________________ (Fill this in when submitting)
