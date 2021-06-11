@@ -47,13 +47,5 @@ public class DynamicProgramming {
         }
         System.out.print(" of length "+counter);
     }
-    public static void main(String[]args)
-    {
-        int n=5;
-        System.out.println(fib(n));
-        String a="ABCDGH";
-        String b="AEDFHR";
-        DynamicProgramming.LCS(a,b);
-
-    }
+    
 }
