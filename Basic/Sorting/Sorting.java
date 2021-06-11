@@ -49,12 +49,4 @@ public class Sorting
     //End Problem 1
 
 
-    public static void main(String[]args)
-    {
-        int[] array = new int[] {1,-1,-2,2,-3,3,0};
-        new Sorting().DistributeArray(array,0);
-        System.out.println("Sorted:"+Arrays.toString(array));
-    }
-
-
 }
